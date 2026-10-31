@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Siklus 2 | E-Portofolio PPG</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      try {
+        var t = localStorage.getItem("th");
+        if (t) document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+  </head>
+  <body data-page="siklus2">
+    <header>
+      <div class="nb">
+        <div class="logo" onclick="go('profil')">
+          <svg class="i"><use href="#grad" /></svg
+          ><span class="gt">E-Portofolio</span>
+        </div>
+        <nav id="nav"></nav>
+        <button class="ib" id="th" aria-label="Ganti tema"></button>
+        <button class="ib" id="mb" aria-label="Menu">
+          <svg class="i"><use href="#menu" /></svg>
+        </button>
+      </div>
+    </header>
+    <main id="app">
+      <div class="pg on">
+        <h1 class="gt">Siklus 2</h1>
+        <p class="sub">
+          Perencanaan, media, praktik mengajar, analisis, dan refleksi
+          pembelajaran pada Siklus 2.
+        </p>
+        <div class="card">
+          <h3 style="margin-top: 0">
+            <svg class="i"><use href="#stack" /></svg>Siklus 2: Berpikir
+            Komputasional dalam Algoritma
+          </h3>
+          <div class="grid g2">
+            <div>
+              <small style="color: var(--mu)">Materi</small><br /><b
+                >Pengantar Algoritma</b
+              >
+            </div>
+            <div>
+              <small style="color: var(--mu)">Sekolah</small><br /><b
+                >SMP Negeri 2 Singaraja</b
+              >
+            </div>
+            <div>
+              <small style="color: var(--mu)">Model Pembelajaran</small><br /><b
+                >Problem Based Learning</b
+              >
+            </div>
+            <div>
+              <small style="color: var(--mu)">Mata Pelajaran</small><br /><b
+                >Informatika · Fase D · Kelas IX</b
+              >
+            </div>
+          </div>
+        </div>
+        <div class="tabs" style="margin-top: 22px">
+          <button class="tab on" onclick="tab(this, 0)">RPM Lengkap</button>
+          <button class="tab" onclick="tab(this, 1)">Media &amp; LKPD</button>
+          <button class="tab" onclick="tab(this, 2)">
+            Video Praktik Mengajar
+          </button>
+          <button class="tab" onclick="tab(this, 3)">
+            Analisis Komponen RPM
+          </button>
+          <button class="tab" onclick="tab(this, 4)">
+            Refleksi dan Rencana Perbaikan
+          </button>
+        </div>
+
+        <div class="tp on">
+          <h2 class="gt" style="margin-top: 8px">
+            Rencana Pembelajaran Mendalam (RPM) Lengkap
+          </h2>
+          <p style="color: var(--mu)">
+            Dokumen RPM Siklus 2 dapat dibaca langsung pada halaman ini atau
+            dibuka di tab baru.
+          </p>
+          <iframe
+            class="fr"
+            data-cfg="src:s2_rpm"
+            loading="lazy"
+            title="RPM Siklus 2"
+          ></iframe>
+          <div class="ctr">
+            <a
+              class="btn"
+              href="#"
+              data-cfg="href:s2_rpmOpen"
+              target="_blank"
+              rel="noopener"
+              ><svg class="i"><use href="#ext" /></svg>Buka di Google Drive</a
+            >
+          </div>
+        </div>
+
+        <div class="tp">
+          <h2 class="gt" style="margin-top: 8px">Media &amp; LKPD</h2>
+          <p style="color: var(--mu)">
+            Media pembelajaran dan Lembar Kerja Peserta Didik (LKPD) yang
+            digunakan pada Siklus 2.
+          </p>
+          <div class="grid g2">
+            <div class="card">
+              <h3 style="margin-top: 0">
+                <svg class="i"><use href="#stack" /></svg>Media Pembelajaran
+              </h3>
+              <a
+                href="#"
+                data-cfg="href:s2_media"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  class="thumb"
+                  data-cfg="src:s2_mediaThumb"
+                  data-ph="Media Pembelajaran Siklus 2|#2563eb"
+                  alt="Media Pembelajaran"
+              /></a>
+              <p>
+                Media pembelajaran berbasis Canva digunakan untuk mendukung
+                pembelajaran Informatika pada materi Pengantar Algoritma melalui
+                penyajian materi secara visual, menarik, dan kontekstual. Materi
+                yang dibahas meliputi pengertian algoritma, karakteristik
+                algoritma, serta tiga bentuk representasi algoritma, yaitu
+                kalimat deskriptif, flowchart (diagram alir), dan pseudocode.
+                Setiap bentuk representasi dilengkapi dengan contoh permasalahan
+                sederhana dalam kehidupan sehari-hari agar peserta didik lebih
+                mudah memahami urutan langkah penyelesaian suatu masalah.
+              </p>
+              Penggunaan Canva memungkinkan materi disajikan melalui kombinasi
+              teks, gambar, ilustrasi, dan diagram sehingga pembelajaran menjadi
+              lebih menarik dan mudah dipahami. Melalui contoh dan visualisasi
+              yang disajikan, peserta didik diharapkan mampu memahami serta
+              membedakan ketiga bentuk representasi algoritma dan menerapkannya
+              dalam menyusun langkah-langkah penyelesaian masalah secara
+              sistematis.
+
+              <p></p>
+
+              <a
+                class="btn"
+                href="#"
+                data-cfg="href:s2_media"
+                target="_blank"
+                rel="noopener"
+                ><svg class="i"><use href="#ext" /></svg>Buka Media</a
+              >
+            </div>
+            <div class="card">
+              <h3 style="margin-top: 0">
+                <svg class="i"><use href="#clip" /></svg>LKPD
+              </h3>
+              <a href="#" data-cfg="href:s2_lkpd" target="_blank" rel="noopener"
+                ><img
+                  class="thumb"
+                  data-cfg="src:s2_lkpdThumb"
+                  data-ph="LKPD Siklus 2|#9333ea"
+                  alt="LKPD"
+              /></a>
+              <p>
+                LKPD dilengkapi dengan petunjuk pengerjaan yang membantu peserta
+                didik memahami tahapan kegiatan. Peserta didik diberikan
+                kesempatan untuk mengambil keputusan secara mandiri dengan
+                memilih salah satu dari tiga permasalahan yang tersedia, yaitu
+                menghitung luas segitiga, luas lingkaran, atau menghitung nilai
+                rata-rata.
+              </p>
+
+              <p>
+                Setelah menentukan pilihan, peserta didik diminta menyusun
+                penyelesaian permasalahan tersebut ke dalam tiga bentuk
+                representasi algoritma, yaitu kalimat deskriptif, flowchart
+                (diagram alir), dan pseudocode. Melalui kegiatan ini, peserta
+                didik dapat memahami cara menyajikan langkah-langkah
+                penyelesaian masalah secara sistematis.
+              </p>
+              <a
+                class="btn"
+                href="#"
+                data-cfg="href:s2_lkpd"
+                target="_blank"
+                rel="noopener"
+                ><svg class="i"><use href="#ext" /></svg>Buka LKPD</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="tp">
+          <h2 class="gt" style="margin-top: 8px">Video Praktik Mengajar</h2>
+          <p style="color: var(--mu)">
+            Klik gambar untuk menonton video praktik mengajar Siklus 2 di
+            YouTube.
+          </p>
+          <a
+            class="jb"
+            href="#"
+            data-cfg="href:s2_yt"
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              data-cfg="src:s2_ytThumb"
+              data-ph="Thumbnail Video YouTube Siklus 2|#9333ea"
+              alt="Video Praktik Mengajar Siklus 2"
+            />
+            <span class="pl"></span>
+            <div class="jbt">
+              <h3>Video Praktik Mengajar Siklus 2</h3>
+              <p>Tonton di YouTube</p>
+            </div>
+          </a>
+          <div class="ctr">
+            <a
+              class="btn"
+              href="#"
+              data-cfg="href:s2_yt"
+              target="_blank"
+              rel="noopener"
+              ><svg class="i"><use href="#ext" /></svg>Tonton di YouTube</a
+            >
+          </div>
+        </div>
+
+        <div class="tp">
+          <h2 class="gt" style="margin-top: 8px">Analisis Komponen RPM</h2>
+          <p style="color: var(--mu)">
+            Analisis sepuluh komponen RPM Siklus 2.
+          </p>
+          <details>
+            <summary>
+              1. Identifikasi Kesiapan Peserta Didik
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Peserta didik telah memiliki pengetahuan awal mengenai Berpikir
+                Komputasional beserta elemen-elemennya yang dipelajari pada
+                pertemuan sebelumnya. Pengalaman tersebut dikaitkan dengan
+                materi Pengantar Algoritma agar peserta didik memahami bahwa
+                suatu permasalahan dapat diselesaikan melalui langkah-langkah
+                yang teratur dan sistematis.
+              </p>
+              <p>
+                Dari segi minat, peserta didik memiliki ketertarikan terhadap
+                penggunaan teknologi, seperti komputer dan gawai. Kebutuhan
+                belajar peserta didik juga beragam, meliputi visual melalui
+                diagram dan flowchart, auditori melalui diskusi dan tanya jawab,
+                serta kinestetik melalui kegiatan menyusun dan mempraktikkan
+                langkah-langkah algoritma.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              2. Capaian dan Tujuan Pembelajaran
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Pembelajaran mengacu pada Capaian Pembelajaran Informatika Fase
+                D, khususnya penerapan Berpikir Komputasional dalam
+                menyelesaikan permasalahan kehidupan sehari-hari. Tujuan
+                pembelajaran diarahkan agar peserta didik kelas IX mampu
+                menganalisis permasalahan secara sistematis dan menerapkan
+                penyelesaiannya ke dalam tiga bentuk representasi algoritma.
+              </p>
+              <p>
+                Ketiga bentuk representasi tersebut meliputi kalimat deskriptif,
+                flowchart (diagram alir), dan pseudocode. Pencapaian tujuan
+                dilakukan melalui kegiatan mengamati permasalahan,
+                mengidentifikasi input, proses, dan output, serta menyusun
+                langkah-langkah penyelesaian berdasarkan permasalahan yang
+                dipilih.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              3. Materi dan Konteks Pembelajaran
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Materi pembelajaran berfokus pada Pengantar Algoritma, meliputi
+                pengertian algoritma, penyusunan langkah-langkah penyelesaian
+                masalah, serta tiga bentuk representasinya, yaitu kalimat
+                deskriptif, flowchart, dan pseudocode. Materi dikaitkan dengan
+                aktivitas sehari-hari, seperti membuat mi instan, menyeberang
+                jalan, dan mengikuti prosedur kegiatan tertentu.
+              </p>
+              <p>
+                Pada kegiatan LKPD, peserta didik diberikan tiga pilihan
+                permasalahan matematika, yaitu menghitung luas segitiga, luas
+                lingkaran, atau nilai rata-rata. Peserta didik memilih salah
+                satu permasalahan, kemudian mengidentifikasi input, proses, dan
+                output sebelum mengubah penyelesaiannya menjadi algoritma
+                deskriptif, flowchart, dan pseudocode.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              4. Dimensi Profil Lulusan
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Pembelajaran mengembangkan enam dimensi profil lulusan, yaitu
+                keimanan dan ketakwaan terhadap Tuhan Yang Maha Esa serta
+                berakhlak mulia, kewargaan, penalaran kritis, kreativitas,
+                kolaborasi, dan kemandirian. Dimensi tersebut diterapkan melalui
+                sikap jujur, disiplin, bertanggung jawab, dan menghargai
+                pendapat teman selama kegiatan pembelajaran.
+              </p>
+              <p>
+                Penalaran kritis dan kreativitas dikembangkan ketika peserta
+                didik menganalisis permasalahan serta menyusun representasi
+                algoritma. Sementara itu, kolaborasi dan kemandirian terlihat
+                melalui kegiatan diskusi, membandingkan hasil pekerjaan,
+                memberikan masukan kepada teman, serta menyelesaikan LKPD secara
+                bertanggung jawab.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              5. Model dan Pendekatan Pembelajaran
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Model pembelajaran yang digunakan adalah Problem Based Learning
+                (PBL) dengan pendekatan Deep Learning yang mencakup Mindful
+                Learning, Meaningful Learning, dan Joyful Learning. Model PBL
+                diterapkan melalui penyajian permasalahan kontekstual yang
+                mendorong peserta didik untuk menganalisis dan menemukan langkah
+                penyelesaian secara sistematis.
+              </p>
+              <p>
+                Metode pembelajaran meliputi diskusi kelompok kecil, tanya
+                jawab, presentasi, dan refleksi. Canva dimanfaatkan sebagai
+                media untuk menyajikan materi, ilustrasi, dan contoh
+                representasi algoritma, sedangkan LKPD digunakan sebagai panduan
+                aktivitas peserta didik dalam menyelesaikan permasalahan yang
+                diberikan.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              6. Analisis Langkah-Langkah
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Kegiatan pembelajaran dilaksanakan selama 2 JP atau 80 menit
+                yang terdiri atas kegiatan pendahuluan, inti, dan penutup. Pada
+                kegiatan pendahuluan selama 10 menit, guru membuka pembelajaran,
+                mengajak peserta didik melakukan teknik S.T.O.P, memberikan
+                pertanyaan pemantik, menyepakati aturan kelas, serta
+                menyampaikan tujuan pembelajaran.
+              </p>
+              <p>
+                Pada kegiatan inti selama 60 menit, pembelajaran mengikuti
+                tahapan PBL, yaitu orientasi terhadap masalah, mengorganisasikan
+                peserta didik, membimbing penyelidikan, mengembangkan dan
+                menyajikan hasil, serta menganalisis dan mengevaluasi proses
+                pemecahan masalah. Peserta didik mengerjakan LKPD mulai dari
+                memilih rumus, mengidentifikasi input, proses, dan output,
+                menyusun algoritma deskriptif, membuat flowchart, hingga
+                mengubahnya menjadi pseudocode. Kegiatan ditutup selama 10 menit
+                melalui refleksi, penguatan materi, penyimpulan, dan salam
+                penutup.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              7. Penerapan Diferensiasi melalui DUP/UDL
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Pembelajaran menerapkan prinsip Diferensiasi Universal
+                Pembelajaran (DUP) atau Universal Design for Learning (UDL)
+                melalui tiga aspek, yaitu Multiple Means of Engagement, Multiple
+                Means of Representation, dan Multiple Means of Action and
+                Expression. Keterlibatan peserta didik dibangun dengan
+                memberikan pilihan permasalahan berupa luas segitiga, luas
+                lingkaran, dan nilai rata-rata sehingga mereka dapat menentukan
+                tugas sesuai minatnya.
+              </p>
+              <p>
+                Penyampaian informasi dilakukan melalui kombinasi teks, gambar,
+                diagram, penjelasan lisan, dan media Canva. Dalam menunjukkan
+                pemahaman, peserta didik diberikan kesempatan menggunakan
+                diagram, tulisan, diskusi, maupun kartu langkah serta menyajikan
+                hasil melalui kalimat deskriptif, flowchart, pseudocode, dan
+                presentasi sesuai kebutuhan belajar masing-masing.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              8. Analisis Asesmen Pembelajaran
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Asesmen pembelajaran terdiri atas asesmen awal (pre-assessment),
+                asesmen proses (formative assessment), dan asesmen akhir
+                (summative assessment). Asesmen awal dilakukan melalui
+                pertanyaan objektif, uraian singkat, dan observasi untuk
+                mengetahui pengetahuan awal peserta didik mengenai Berpikir
+                Komputasional serta kemampuan menyusun langkah penyelesaian
+                masalah.
+              </p>
+              <p>
+                Asesmen proses dilakukan melalui penilaian LKPD dan pengamatan
+                diskusi kelompok kecil dengan memperhatikan ketepatan
+                identifikasi input, proses, output, algoritma deskriptif,
+                flowchart, dan pseudocode. Sementara itu, asesmen akhir
+                dilakukan melalui jurnal reflektif individu untuk mengetahui
+                pemahaman, bagian materi yang mudah dipahami, serta kesulitan
+                yang dialami peserta didik selama pembelajaran.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              9. Pengelolaan Kelas dan Peran Guru
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Pengelolaan kelas dilakukan dengan menciptakan suasana belajar
+                yang aman, nyaman, dan mendukung keterlibatan seluruh peserta
+                didik. Guru bersama peserta didik menyepakati aturan kelas agar
+                setiap individu berani bertanya, menyampaikan pendapat, dan
+                mencoba menyelesaikan permasalahan tanpa takut melakukan
+                kesalahan. Kegiatan diskusi dilakukan secara berkelompok kecil
+                atau bersama teman sebangku.
+              </p>
+              <p>
+                Guru berperan sebagai fasilitator dan pembimbing selama proses
+                pembelajaran dengan memberikan pertanyaan pengarah
+                (scaffolding), seperti data apa yang harus diketahui, proses apa
+                yang perlu dilakukan, dan apakah langkah yang disusun sudah
+                berurutan. Guru juga memberikan umpan balik, memfasilitasi peer
+                review, mengklarifikasi kesalahan, serta memberikan penguatan
+                terhadap hasil pekerjaan peserta didik.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              10. Penerapan Prinsip Pembelajaran Mendalam
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Prinsip pembelajaran mendalam diterapkan melalui Mindful
+                Learning, Meaningful Learning, dan Joyful Learning. Mindful
+                Learning terlihat ketika peserta didik diarahkan untuk menyadari
+                setiap langkah penyelesaian masalah dan memahami pentingnya
+                menyusun algoritma secara runtut, logis, dan sistematis.
+                Meaningful Learning diwujudkan dengan menghubungkan materi
+                algoritma dengan pengalaman sehari-hari serta permasalahan
+                matematika yang dekat dengan kehidupan peserta didik.
+              </p>
+              <p>
+                Joyful Learning diterapkan melalui kegiatan mengamati contoh
+                visual, menjawab pertanyaan pemantik, memilih permasalahan
+                sesuai minat, mengerjakan LKPD, berdiskusi, dan mempresentasikan
+                hasil pekerjaan. Dengan demikian, peserta didik tidak hanya
+                memahami konsep algoritma, tetapi juga memperoleh pengalaman
+                belajar yang aktif, bermakna, dan menyenangkan melalui proses
+                menemukan serta menyajikan solusi dari suatu permasalahan.
+              </p>
+            </div>
+          </details>
+        </div>
+
+        <div class="tp">
+          <h2 class="gt" style="margin-top: 8px">
+            Refleksi dan Rencana Perbaikan
+          </h2>
+          <p style="color: var(--mu)">
+            Refleksi atas pelaksanaan Siklus 2 dan rencana perbaikan untuk
+            siklus berikutnya.
+          </p>
+          <div class="grid g2">
+            <div class="card">
+              <h3 style="margin-top: 0">
+                <svg class="i"><use href="#bulb" /></svg>Refleksi
+              </h3>
+              <p style="color: var(--mu)">
+                Pelaksanaan pembelajaran Siklus 2 pada materi Pengantar
+                Algoritma berjalan cukup baik. Penggunaan Canva membantu
+                penyampaian materi secara visual, sedangkan kegiatan apersepsi
+                berhasil menghubungkan pemahaman peserta didik mengenai Berpikir
+                Komputasional dengan materi algoritma. Peserta didik juga
+                menunjukkan respons yang baik selama kegiatan pembukaan hingga
+                penutupan pembelajaran.
+              </p>
+              <p style="color: var(--mu)">
+                Namun, masih terdapat beberapa peserta didik kelas IX.1 dan IX.5
+                yang mengalami kesulitan dalam memahami simbol dan alur
+                flowchart serta menyusun pseudocode. Berdasarkan umpan balik
+                Guru Pamong, pembelajaran perlu dilengkapi dengan lebih banyak
+                contoh, demonstrasi, dan petunjuk pengerjaan LKPD yang bertahap
+                agar peserta didik lebih mudah memahami materi.
+              </p>
+            </div>
+
+            <div class="card">
+              <h3 style="margin-top: 0">
+                <svg class="i"><use href="#compass" /></svg>Rencana Perbaikan
+              </h3>
+              <p style="color: var(--mu)">
+                Pada pembelajaran berikutnya, saya akan menerapkan kegiatan
+                belajar mandiri sebelum pembelajaran di kelas dengan mengarahkan
+                peserta didik mempelajari materi terlebih dahulu di rumah.
+                Kegiatan pembelajaran akan lebih menekankan metode demonstrasi,
+                diskusi, dan latihan bertahap, khususnya dalam menyusun
+                algoritma menggunakan flowchart dan pseudocode.
+              </p>
+              <p style="color: var(--mu)">
+                Selain itu, saya akan memperbaiki LKPD dengan menambahkan
+                petunjuk yang lebih jelas, contoh penyelesaian, dan tahapan
+                pengerjaan sebagai bentuk scaffolding. Saya juga akan memberikan
+                pendampingan serta umpan balik secara bertahap agar peserta
+                didik kelas IX.1 dan IX.5 lebih percaya diri, memahami materi,
+                dan mampu menyusun representasi algoritma secara mandiri.
+              </p>
+            </div>
+          </div>
+          <div class="ctr">
+            <a class="btn o" onclick="go('perbaikan')"
+              >Lihat perbaikan antarsiklus →</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      © 2026 E-Portofolio PPG. Dibuat untuk memenuhi tugas PPL Mandiri di SMP
+      Negeri 2 Singaraja.
+    </footer>
+    <div class="lb" id="lb" onclick="this.classList.remove('on')">
+      <img id="lbi" alt="" />
+      <p id="lbc"></p>
+    </div>
+    <svg width="0" height="0" style="position: absolute">
+      <defs id="sym"></defs>
+    </svg>
+    <script src="script.js"></script>
+  </body>
+</html>

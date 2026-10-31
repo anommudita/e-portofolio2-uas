@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Siklus 3 | E-Portofolio PPG</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      try {
+        var t = localStorage.getItem("th");
+        if (t) document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+  </head>
+  <body data-page="siklus3">
+    <header>
+      <div class="nb">
+        <div class="logo" onclick="go('profil')">
+          <svg class="i"><use href="#grad" /></svg
+          ><span class="gt">E-Portofolio</span>
+        </div>
+        <nav id="nav"></nav>
+        <button class="ib" id="th" aria-label="Ganti tema"></button>
+        <button class="ib" id="mb" aria-label="Menu">
+          <svg class="i"><use href="#menu" /></svg>
+        </button>
+      </div>
+    </header>
+    <main id="app">
+      <div class="pg on">
+        <h1 class="gt">Siklus 3</h1>
+        <p class="sub">
+          Perencanaan, media, praktik mengajar, analisis, dan refleksi
+          pembelajaran pada Siklus 3.
+        </p>
+        <div class="card">
+          <h3 style="margin-top: 0">
+            <svg class="i"><use href="#stack" /></svg>Siklus 3: Algoritma dan
+            Pemrograman
+          </h3>
+          <div class="grid g2">
+            <div>
+              <small style="color: var(--mu)">Materi</small><br /><b
+                >Pemrograman visual dan Pemrograman tekstual</b
+              >
+            </div>
+            <div>
+              <small style="color: var(--mu)">Sekolah</small><br /><b
+                >SMP Negeri 2 Singaraja</b
+              >
+            </div>
+            <div>
+              <small style="color: var(--mu)">Model Pembelajaran</small><br /><b
+                >Problem based learnng</b
+              >
+            </div>
+            <div>
+              <small style="color: var(--mu)">Mata Pelajaran</small><br /><b
+                >Informatika · Fase D · Kelas IX</b
+              >
+            </div>
+          </div>
+        </div>
+        <div class="tabs" style="margin-top: 22px">
+          <button class="tab on" onclick="tab(this, 0)">RPM Lengkap</button>
+          <button class="tab" onclick="tab(this, 1)">Media &amp; LKPD</button>
+          <button class="tab" onclick="tab(this, 2)">
+            Video Praktik Mengajar
+          </button>
+          <button class="tab" onclick="tab(this, 3)">
+            Analisis Komponen RPM
+          </button>
+          <button class="tab" onclick="tab(this, 4)">
+            Refleksi dan Rencana Perbaikan
+          </button>
+        </div>
+
+        <div class="tp on">
+          <h2 class="gt" style="margin-top: 8px">
+            Rencana Pembelajaran Mendalam (RPM) Lengkap
+          </h2>
+          <p style="color: var(--mu)">
+            Dokumen RPM Siklus 3 dapat dibaca langsung pada halaman ini atau
+            dibuka di tab baru.
+          </p>
+          <iframe
+            class="fr"
+            data-cfg="src:s3_rpm"
+            loading="lazy"
+            title="RPM Siklus 3"
+          ></iframe>
+          <div class="ctr">
+            <a
+              class="btn"
+              href="#"
+              data-cfg="href:s3_rpmOpen"
+              target="_blank"
+              rel="noopener"
+              ><svg class="i"><use href="#ext" /></svg>Buka di Google Drive</a
+            >
+          </div>
+        </div>
+
+        <div class="tp">
+          <h2 class="gt" style="margin-top: 8px">Media &amp; LKPD</h2>
+          <p style="color: var(--mu)">
+            Media pembelajaran dan Lembar Kerja Peserta Didik (LKPD) yang
+            digunakan pada Siklus 3.
+          </p>
+          <div class="grid g2">
+            <div class="card">
+              <h3 style="margin-top: 0">
+                <svg class="i"><use href="#stack" /></svg>Media Pembelajaran
+              </h3>
+              <a
+                href="#"
+                data-cfg="href:s3_media"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  class="thumb"
+                  data-cfg="src:s3_mediaThumb"
+                  data-ph="Pemrograman Visual|#2563eb"
+                  alt="Media Pembelajaran"
+              /></a>
+              <p>
+                Media pembelajaran berbasis Canva digunakan untuk mendukung
+                pembelajaran Informatika pada materi Algoritma dan Pemrograman
+                Berbasis Visual menggunakan Scratch. Materi yang dibahas
+                meliputi pengenalan algoritma, konsep pemrograman berbasis blok,
+                serta penggunaan berbagai blok perintah untuk menyusun instruksi
+                secara berurutan. Peserta didik diperkenalkan dengan cara
+                membuat program sederhana melalui penggabungan blok kode,
+                seperti gerakan, tampilan, peristiwa, dan kontrol.
+              </p>
+
+              <p>
+                Melalui kombinasi teks, gambar, ilustrasi, dan contoh
+                visualisasi blok kode, media pembelajaran ini membantu peserta
+                didik memahami hubungan antara algoritma dan penerapannya dalam
+                pemrograman. Peserta didik diharapkan mampu menyusun urutan
+                instruksi, memahami fungsi setiap blok perintah, serta membuat
+                program sederhana menggunakan Scratch secara kreatif dan
+                sistematis.
+              </p>
+              <a
+                class="btn"
+                href="#"
+                data-cfg="href:s3_media"
+                target="_blank"
+                rel="noopener"
+                ><svg class="i"><use href="#ext" /></svg>Buka Media</a
+              >
+            </div>
+            <div class="card">
+              <h3 style="margin-top: 0">
+                <svg class="i"><use href="#stack" /></svg>Media Pembelajaran
+              </h3>
+              <a
+                href="#"
+                data-cfg="href:s3_media"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  class="thumb"
+                  data-cfg="src:s3_mediaThumb"
+                  data-ph="Pemrograman tekstual|#2563eb"
+                  alt="Media Pembelajaran"
+              /></a>
+              <p>
+                Media pembelajaran berbasis Canva digunakan untuk mendukung
+                pembelajaran Informatika pada materi Algoritma dan Pemrograman
+                Berbasis Tekstual menggunakan Python. Materi yang dibahas
+                meliputi pengenalan bahasa pemrograman Python, struktur
+                penulisan kode, penggunaan variabel, tipe data, operator, serta
+                perintah dasar untuk membuat program sederhana. Peserta didik
+                diperkenalkan dengan cara menuliskan instruksi menggunakan
+                sintaks Python untuk menyelesaikan permasalahan secara
+                terstruktur.
+              </p>
+
+              <p>
+                Melalui kombinasi teks, gambar, ilustrasi, dan contoh potongan
+                kode Python, media pembelajaran ini membantu peserta didik
+                memahami cara kerja pemrograman berbasis tekstual. Peserta didik
+                diharapkan mampu mengenali dan menerapkan sintaks dasar Python,
+                menyusun kode program secara sistematis, serta membuat program
+                sederhana berdasarkan permasalahan yang diberikan.
+              </p>
+              <a
+                class="btn"
+                href="#"
+                data-cfg="href:s3_media1"
+                target="_blank"
+                rel="noopener"
+                ><svg class="i"><use href="#ext" /></svg>Buka Media</a
+              >
+            </div>
+            <div class="card">
+              <h3 style="margin-top: 0">
+                <svg class="i"><use href="#clip" /></svg>LKPD
+              </h3>
+              <a href="#" data-cfg="href:s3_lkpd" target="_blank" rel="noopener"
+                ><img
+                  class="thumb"
+                  data-cfg="src:s3_lkpdThumb"
+                  data-ph="LKPD Scratch dan Pyton 3|#9333ea"
+                  alt="LKPD"
+              /></a>
+              <p>
+                LKPD dilengkapi dengan petunjuk pengerjaan yang membantu peserta
+                didik memahami tahapan kegiatan dalam pembelajaran Algoritma dan
+                Pemrograman Berbasis Visual menggunakan Scratch serta
+                Pemrograman Berbasis Tekstual menggunakan Python. Peserta didik
+                diberikan kesempatan untuk memilih salah satu dari tiga
+                permasalahan yang tersedia, yaitu menghitung luas segitiga, luas
+                lingkaran, atau menghitung nilai rata-rata sebagai dasar dalam
+                menyusun penyelesaian masalah.
+              </p>
+
+              <p>
+                Setelah menentukan pilihan, peserta didik diminta menyelesaikan
+                permasalahan melalui penyusunan algoritma dan menerapkannya
+                dalam bentuk program. Pada pemrograman berbasis visual, peserta
+                didik menggunakan blok-blok perintah Scratch, sedangkan pada
+                pemrograman berbasis tekstual, peserta didik menuliskan kode
+                program menggunakan sintaks Python. Melalui kegiatan ini,
+                peserta didik dapat memahami hubungan antara algoritma dan
+                penerapannya dalam pemrograman secara sistematis.
+              </p>
+              <a
+                class="btn"
+                href="#"
+                data-cfg="href:s3_lkpd"
+                target="_blank"
+                rel="noopener"
+                ><svg class="i"><use href="#ext" /></svg>Buka LKPD</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="tp">
+          <h2 class="gt" style="margin-top: 8px">Video Praktik Mengajar</h2>
+          <p style="color: var(--mu)">
+            Klik gambar untuk menonton video praktik mengajar Pemrograman Visual
+            - Scratch di YouTube.
+          </p>
+          <a
+            class="jb"
+            href="#"
+            data-cfg="href:s3_yt"
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              data-cfg="src:s3_ytThumb"
+              data-ph="Pemrograman Visual - Scratch |#9333ea"
+              alt="Video Praktik Mengajar Siklus 3"
+            />
+            <span class="pl"></span>
+            <div class="jbt">
+              <h3>Video Praktik Mengajar Siklus 3</h3>
+              <p>Tonton di YouTube</p>
+            </div>
+          </a>
+          <div class="ctr">
+            <a
+              class="btn"
+              href="#"
+              data-cfg="href:s3_yt"
+              target="_blank"
+              rel="noopener"
+              ><svg class="i"><use href="#ext" /></svg>Tonton di YouTube</a
+            >
+          </div>
+
+          <h2 class="gt" style="margin-top: 8px">Video Praktik Mengajar</h2>
+          <p style="color: var(--mu)">
+            Klik gambar untuk menonton video praktik mengajar Pemrograman
+            Tekstual - Python di YouTube.
+          </p>
+          <a
+            class="jb"
+            href="#"
+            data-cfg="href:s3_yt1"
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              data-cfg="src:s3_ytThumb"
+              data-ph="Pemrograman Tekstual - Python |#9333ea"
+              alt="Video Praktik Mengajar Siklus 3"
+            />
+            <span class="pl"></span>
+            <div class="jbt">
+              <h3>Video Praktik Mengajar Siklus 3</h3>
+              <p>Tonton di YouTube</p>
+            </div>
+          </a>
+          <div class="ctr">
+            <a
+              class="btn"
+              href="#"
+              data-cfg="href:s3_yt"
+              target="_blank"
+              rel="noopener"
+              ><svg class="i"><use href="#ext" /></svg>Tonton di YouTube</a
+            >
+          </div>
+        </div>
+
+        <div class="tp">
+          <h2 class="gt" style="margin-top: 8px">Analisis Komponen RPM</h2>
+          <p style="color: var(--mu)">
+            Analisis sepuluh komponen RPM Siklus 3.
+          </p>
+          <details>
+            <summary>
+              1. Identifikasi Kesiapan Peserta Didik
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Peserta didik telah memiliki pengetahuan awal mengenai
+                algoritma, khususnya penyusunan langkah-langkah penyelesaian
+                masalah secara terstruktur. Pada pembelajaran ini, pemahaman
+                tersebut dikembangkan dengan menerapkannya ke dalam pemrograman
+                visual menggunakan Scratch dan pemrograman tekstual menggunakan
+                Python.
+              </p>
+              <p>
+                Peserta didik memiliki minat yang beragam dalam kegiatan praktik
+                pemrograman. Oleh karena itu, pembelajaran memperhatikan
+                kebutuhan visual melalui contoh blok dan kode program, kebutuhan
+                auditori melalui diskusi dan penjelasan, serta kebutuhan
+                kinestetik melalui praktik membuat, menjalankan, dan memperbaiki
+                program.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              2. Capaian dan Tujuan Pembelajaran
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Pembelajaran mengacu pada Capaian Pembelajaran Informatika Fase
+                D, khususnya penerapan Berpikir Komputasional dalam
+                menyelesaikan permasalahan serta penyusunan instruksi secara
+                sistematis. Peserta didik diarahkan untuk memahami hubungan
+                antara algoritma dan pemrograman sebagai cara menerjemahkan
+                langkah penyelesaian masalah menjadi instruksi yang dapat
+                dijalankan komputer.
+              </p>
+              <p>
+                Tujuan pembelajaran adalah agar peserta didik kelas IX mampu
+                menganalisis permasalahan kontekstual dan menerapkannya ke dalam
+                bentuk program menggunakan blok Scratch maupun kode Python.
+                Peserta didik juga diharapkan mampu menjalankan, menguji, dan
+                memperbaiki program secara mandiri maupun berkelompok.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              3. Materi dan Konteks Pembelajaran
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Materi pembelajaran berfokus pada Algoritma dan Pemrograman,
+                meliputi penerapan algoritma menggunakan Scratch, pengenalan
+                modularisasi melalui My Blocks (Custom Block), serta pemrograman
+                tekstual menggunakan Python. Peserta didik mempelajari
+                penggunaan variabel, input, proses, output, operasi perhitungan,
+                serta function dan procedure dalam menyusun program sederhana.
+              </p>
+              <p>
+                Materi dikontekstualisasikan melalui permasalahan sehari-hari,
+                seperti menghitung luas segitiga, luas lingkaran, dan nilai
+                rata-rata. Peserta didik menerapkan penyelesaian permasalahan
+                tersebut menggunakan blok perintah Scratch maupun kode Python
+                sehingga dapat memahami bahwa algoritma yang sama dapat
+                diterapkan melalui pendekatan pemrograman yang berbeda.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              4. Dimensi Profil Lulusan
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Pembelajaran mengembangkan tujuh dimensi profil lulusan, yaitu
+                keimanan dan ketakwaan terhadap Tuhan Yang Maha Esa serta
+                berakhlak mulia, kewargaan, penalaran kritis, kreativitas,
+                kolaborasi, kemandirian, dan komunikasi. Dimensi tersebut
+                diterapkan melalui sikap jujur, disiplin, bertanggung jawab,
+                serta menghargai pendapat dan hasil karya orang lain.
+              </p>
+              <p>
+                Penalaran kritis dan kreativitas dikembangkan ketika peserta
+                didik menganalisis permasalahan dan menyusun program menggunakan
+                Scratch maupun Python. Kolaborasi, kemandirian, dan komunikasi
+                terlihat melalui kegiatan praktik, diskusi, pengujian program,
+                perbaikan kesalahan, serta presentasi hasil pekerjaan.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              5. Model dan Pendekatan Pembelajaran
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Model pembelajaran yang digunakan adalah Project Based Learning
+                (PjBL) dengan pendekatan Deep Learning yang mencakup Mindful
+                Learning, Meaningful Learning, dan Joyful Learning. Peserta
+                didik diberikan permasalahan kontekstual untuk diselesaikan
+                melalui kegiatan merancang, membuat, dan menguji program
+                menggunakan Scratch maupun Python.
+              </p>
+              <p>
+                Metode pembelajaran meliputi diskusi kelompok kecil, tanya
+                jawab, demonstrasi, praktik, presentasi, dan refleksi. Canva
+                digunakan untuk menyajikan materi, Scratch sebagai media
+                pemrograman berbasis blok, serta Programiz sebagai platform
+                untuk menuliskan dan menjalankan kode Python secara langsung.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              6. Analisis Langkah-Langkah
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Kegiatan pembelajaran dilaksanakan selama 2 JP atau 80 menit,
+                yang terdiri atas kegiatan pendahuluan, inti, dan penutup. Pada
+                kegiatan pendahuluan selama 10 menit, guru membuka pembelajaran,
+                mengajak peserta didik berdoa, melakukan apersepsi, memberikan
+                pertanyaan pemantik, serta menyampaikan tujuan pembelajaran.
+              </p>
+              <p>
+                Pada kegiatan inti selama 60 menit, peserta didik mengikuti
+                tahapan Project Based Learning, mulai dari mengamati
+                permasalahan, mengorganisasikan kegiatan, melakukan praktik
+                pemrograman, mengembangkan dan menyajikan hasil program, hingga
+                mengevaluasi penyelesaian masalah. Peserta didik membuat program
+                menghitung luas segitiga dan lingkaran menggunakan Python,
+                mengenal modularisasi melalui function dan procedure,
+                menjalankan program, serta memperbaiki kesalahan. Kegiatan
+                ditutup selama 10 menit melalui refleksi, penguatan materi, dan
+                penyimpulan pembelajaran.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              7. Penerapan Diferensiasi melalui DUP/UDL
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Pembelajaran menerapkan prinsip Universal Design for Learning
+                (UDL) melalui tiga aspek, yaitu Multiple Means of Engagement,
+                Multiple Means of Representation, dan Multiple Means of Action
+                and Expression. Keterlibatan peserta didik dibangun melalui
+                permasalahan kontekstual, seperti menghitung luas bangun datar
+                dan nilai rata-rata, sehingga peserta didik dapat belajar sesuai
+                minat dan kebutuhannya.
+              </p>
+              <p>
+                Penyajian materi dilakukan melalui teks, gambar, diagram alur,
+                contoh blok Scratch, dan kode Python. Dalam menunjukkan
+                pemahaman, peserta didik diberikan kesempatan untuk menyusun
+                blok program atau menuliskan kode Python, kemudian menjalankan
+                dan menguji hasilnya. Hasil pekerjaan dapat disampaikan melalui
+                demonstrasi program, presentasi lisan, maupun penjelasan
+                tertulis.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              8. Analisis Asesmen Pembelajaran
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Asesmen pembelajaran terdiri atas asesmen awal (pre-assessment),
+                asesmen proses (formative assessment), dan asesmen akhir
+                (summative assessment). Asesmen awal dilakukan melalui
+                pertanyaan objektif, uraian singkat, dan observasi untuk
+                mengetahui pemahaman peserta didik mengenai algoritma, konsep
+                input-process-output, serta pengalaman menggunakan Scratch dan
+                Python.
+              </p>
+              <p>
+                Asesmen proses dilakukan melalui penilaian LKPD dan pengamatan
+                aktivitas diskusi serta praktik pemrograman. Aspek yang dinilai
+                meliputi ketepatan algoritma, penggunaan blok atau sintaks,
+                variabel, operasi perhitungan, function, serta ketepatan hasil
+                program. Sementara itu, asesmen akhir dilakukan melalui jurnal
+                reflektif individu untuk mengetahui pemahaman, pengalaman, dan
+                kesulitan peserta didik selama pembelajaran.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              9. Pengelolaan Kelas dan Peran Guru
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Pengelolaan kelas dilakukan melalui kegiatan diskusi kelompok
+                kecil dan praktik pemrograman di ruang kelas atau laboratorium
+                komputer. Lingkungan belajar diatur agar peserta didik dapat
+                bekerja sama, mengerjakan LKPD, menggunakan perangkat komputer,
+                serta mempresentasikan hasil program. Guru juga memanfaatkan
+                proyektor atau TV kelas untuk menampilkan contoh pemrograman
+                Scratch dan Python.
+              </p>
+              <p>
+                Guru berperan sebagai fasilitator dan pembimbing dengan
+                memberikan demonstrasi, pertanyaan pengarah, serta pendampingan
+                ketika peserta didik mengalami kesulitan. Guru membantu peserta
+                didik memahami penggunaan variabel, sintaks, indentasi, dan
+                modularisasi, sekaligus memberikan umpan balik ketika ditemukan
+                kesalahan dalam menjalankan program.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              10. Penerapan Prinsip Pembelajaran Mendalam
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Prinsip pembelajaran mendalam diterapkan melalui Mindful
+                Learning, Meaningful Learning, dan Joyful Learning. Mindful
+                Learning diwujudkan dengan mengarahkan peserta didik memahami
+                langkah pembuatan program secara runtut, mulai dari menentukan
+                input, proses, hingga output. Meaningful Learning diterapkan
+                melalui permasalahan sehari-hari, seperti menghitung luas bangun
+                datar dan nilai rata-rata menggunakan Scratch maupun Python.
+              </p>
+              <p>
+                Joyful Learning diwujudkan melalui kegiatan praktik menyusun
+                blok program, menuliskan kode Python, menjalankan program, serta
+                berdiskusi dan bekerja sama. Peserta didik juga diberikan
+                kesempatan untuk menemukan kesalahan dan memperbaikinya sehingga
+                memperoleh pengalaman belajar yang aktif, bermakna, dan
+                menyenangkan.
+              </p>
+            </div>
+          </details>
+        </div>
+
+        <div class="tp">
+          <h2 class="gt" style="margin-top: 8px">
+            Refleksi dan Rencana Perbaikan
+          </h2>
+          <p style="color: var(--mu)">
+            Refleksi atas pelaksanaan Siklus 3 dan rencana perbaikan untuk
+            siklus berikutnya.
+          </p>
+          <div class="grid g2">
+            <div class="card">
+              <h3 style="margin-top: 0">
+                <svg class="i"><use href="#bulb" /></svg>Refleksi
+              </h3>
+              <p style="color: var(--mu)">
+                Pelaksanaan pembelajaran Siklus 3 pada materi Algoritma dan
+                Pemrograman menggunakan Scratch dan Python berjalan cukup baik.
+                Kegiatan apersepsi membantu murid menghubungkan materi
+                representasi algoritma yang telah dipelajari sebelumnya dengan
+                praktik pemrograman. Penggunaan Canva juga membantu penyampaian
+                materi secara visual sehingga murid memperoleh gambaran mengenai
+                penerapan algoritma menjadi sebuah program.
+              </p>
+              <p style="color: var(--mu)">
+                Selama kegiatan pembelajaran, murid kelas IX.1 dan IX.5
+                menunjukkan respons yang baik dalam mengikuti kegiatan pembukaan
+                hingga penutupan. Namun, masih terdapat perbedaan perkembangan
+                pemahaman antara kedua kelas. Murid kelas IX.1 dapat melanjutkan
+                pembelajaran hingga materi modularisasi, sedangkan kelas IX.5
+                masih memerlukan penguatan konsep variabel sehingga materi
+                modularisasi belum dapat diselesaikan.
+              </p>
+              <p style="color: var(--mu)">
+                Berdasarkan umpan balik Guru Pamong, pembelajaran perlu didukung
+                dengan media interaktif atau video animasi untuk menjelaskan
+                konsep variabel dan modularisasi. Selain itu, kegiatan praktik
+                perlu dikembangkan agar murid memperoleh pengalaman menggunakan
+                editor teks Python serta memahami pemanfaatan library dalam
+                pembuatan program.
+              </p>
+            </div>
+
+            <div class="card">
+              <h3 style="margin-top: 0">
+                <svg class="i"><use href="#compass" /></svg>Rencana Perbaikan
+              </h3>
+              <p style="color: var(--mu)">
+                Pada pembelajaran berikutnya, saya akan mengembangkan media
+                pembelajaran interaktif atau video animasi yang menyajikan
+                konsep variabel dan modularisasi secara visual, sederhana, dan
+                kontekstual. Media tersebut diharapkan dapat membantu murid
+                memahami fungsi variabel serta cara membagi program menjadi
+                bagian-bagian yang lebih kecil.
+              </p>
+              <p style="color: var(--mu)">
+                Metode pembelajaran akan lebih menekankan demonstrasi dan
+                praktik langsung dengan memberikan contoh program secara
+                bertahap. Saya juga akan menyediakan latihan sederhana agar
+                murid dapat mencoba membuat, menjalankan, dan memperbaiki
+                program menggunakan Python sesuai dengan kemampuan
+                masing-masing.
+              </p>
+              <p style="color: var(--mu)">
+                Setelah murid memahami konsep dasar variabel dan modularisasi,
+                pembelajaran akan dilanjutkan dengan penggunaan editor teks
+                Python lainnya serta pengenalan library yang telah dibuat oleh
+                orang lain. Melalui perbaikan tersebut, diharapkan murid lebih
+                percaya diri, aktif, dan mampu mengembangkan program secara
+                lebih terstruktur dan mandiri.
+              </p>
+            </div>
+          </div>
+          <div class="ctr">
+            <a class="btn o" onclick="go('perbaikan')"
+              >Lihat perbaikan antarsiklus →</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      © 2026 E-Portofolio PPG. Dibuat untuk memenuhi tugas PPL Mandiri di SMP
+      Negeri 2 Singaraja.
+    </footer>
+    <div class="lb" id="lb" onclick="this.classList.remove('on')">
+      <img id="lbi" alt="" />
+      <p id="lbc"></p>
+    </div>
+    <svg width="0" height="0" style="position: absolute">
+      <defs id="sym"></defs>
+    </svg>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Dokumentasi | E-Portofolio PPG</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      try {
+        var t = localStorage.getItem("th");
+        if (t) document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+  </head>
+  <body data-page="dokumentasi">
+    <header>
+      <div class="nb">
+        <div class="logo" onclick="go('profil')">
+          <svg class="i"><use href="#grad" /></svg
+          ><span class="gt">E-Portofolio</span>
+        </div>
+        <nav id="nav"></nav>
+        <button class="ib" id="th" aria-label="Ganti tema"></button>
+        <button class="ib" id="mb" aria-label="Menu">
+          <svg class="i"><use href="#menu" /></svg>
+        </button>
+      </div>
+    </header>
+    <main id="app">
+      <div class="pg on">
+        <h1 class="gt">Dokumentasi</h1>
+        <p class="sub">
+          Kumpulan foto kegiatan praktik mengajar per siklus, kegiatan non
+          mengajar, dan kegiatan sekolah selama PPL Mandiri.
+        </p>
+        <div class="tabs">
+          <button class="tab on" data-c="all" onclick="flt(this, 'all')">
+            Semua
+          </button>
+          <button class="tab" data-c="s2" onclick="flt(this, 's2')">
+            Siklus 2
+          </button>
+          <button class="tab" data-c="s3" onclick="flt(this, 's3')">
+            Siklus 3
+          </button>
+          <button class="tab" data-c="s4" onclick="flt(this, 's4')">
+            Siklus 4
+          </button>
+          <button
+            class="tab"
+            data-c="nonmengajar"
+            onclick="flt(this, 'nonmengajar')"
+          >
+            Non Mengajar
+          </button>
+          <button class="tab" data-c="sekolah" onclick="flt(this, 'sekolah')">
+            Kegiatan Sekolah
+          </button>
+        </div>
+        <div class="gal" id="gal"></div>
+      </div>
+    </main>
+    <footer>
+      © 2026 E-Portofolio PPG. Dibuat untuk memenuhi tugas PPL Mandiri di SMP
+      Negeri 2 Singaraja.
+    </footer>
+    <div class="lb" id="lb" onclick="this.classList.remove('on')">
+      <img id="lbi" alt="" />
+      <p id="lbc"></p>
+    </div>
+    <svg width="0" height="0" style="position: absolute">
+      <defs id="sym"></defs>
+    </svg>
+    <script src="script.js"></script>
+  </body>
+</html>

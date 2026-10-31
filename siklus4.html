@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Siklus 4 | E-Portofolio PPG</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      try {
+        var t = localStorage.getItem("th");
+        if (t) document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+  </head>
+  <body data-page="siklus4">
+    <header>
+      <div class="nb">
+        <div class="logo" onclick="go('profil')">
+          <svg class="i"><use href="#grad" /></svg
+          ><span class="gt">E-Portofolio</span>
+        </div>
+        <nav id="nav"></nav>
+        <button class="ib" id="th" aria-label="Ganti tema"></button>
+        <button class="ib" id="mb" aria-label="Menu">
+          <svg class="i"><use href="#menu" /></svg>
+        </button>
+      </div>
+    </header>
+    <main id="app">
+      <div class="pg on">
+        <h1 class="gt">Siklus 4</h1>
+        <p class="sub">
+          Perencanaan, media, praktik mengajar, analisis, dan refleksi
+          pembelajaran pada Siklus 4.
+        </p>
+        <div class="card">
+          <h3 style="margin-top: 0">
+            <svg class="i"><use href="#stack" /></svg>Siklus 4: Literasi Digital
+            : Pembuatan Blog
+          </h3>
+          <div class="grid g2">
+            <div>
+              <small style="color: var(--mu)">Materi</small><br /><b
+                >Blog membuat Google Sites</b
+              >
+            </div>
+            <div>
+              <small style="color: var(--mu)">Sekolah</small><br /><b
+                >SMP Negeri 2 Singaraja</b
+              >
+            </div>
+            <div>
+              <small style="color: var(--mu)">Model Pembelajaran</small><br /><b
+                >Project Based Learning</b
+              >
+            </div>
+            <div>
+              <small style="color: var(--mu)">Mata Pelajaran</small><br /><b
+                >Informatika · Fase D · Kelas IX</b
+              >
+            </div>
+          </div>
+        </div>
+        <div class="tabs" style="margin-top: 22px">
+          <button class="tab on" onclick="tab(this, 0)">RPM Lengkap</button>
+          <button class="tab" onclick="tab(this, 1)">Media &amp; LKPD</button>
+          <button class="tab" onclick="tab(this, 2)">
+            Video Praktik Mengajar
+          </button>
+          <button class="tab" onclick="tab(this, 3)">
+            Analisis Komponen RPM
+          </button>
+          <button class="tab" onclick="tab(this, 4)">
+            Refleksi dan Rencana Perbaikan
+          </button>
+        </div>
+
+        <div class="tp on">
+          <h2 class="gt" style="margin-top: 8px">
+            Rencana Pembelajaran Mendalam (RPM) Lengkap
+          </h2>
+          <p style="color: var(--mu)">
+            Dokumen RPM Siklus 4 dapat dibaca langsung pada halaman ini atau
+            dibuka di tab baru.
+          </p>
+          <iframe
+            class="fr"
+            data-cfg="src:s4_rpm"
+            loading="lazy"
+            title="RPM Siklus 4"
+          ></iframe>
+          <div class="ctr">
+            <a
+              class="btn"
+              href="#"
+              data-cfg="href:s4_rpmOpen"
+              target="_blank"
+              rel="noopener"
+              ><svg class="i"><use href="#ext" /></svg>Buka di Google Drive</a
+            >
+          </div>
+        </div>
+
+        <div class="tp">
+          <h2 class="gt" style="margin-top: 8px">Media &amp; LKPD</h2>
+          <p style="color: var(--mu)">
+            Media pembelajaran dan Lembar Kerja Peserta Didik (LKPD) yang
+            digunakan pada Siklus 4.
+          </p>
+          <div class="grid g2">
+            <div class="card">
+              <h3 style="margin-top: 0">
+                <svg class="i"><use href="#stack" /></svg>Media Pembelajaran
+              </h3>
+              <a
+                href="#"
+                data-cfg="href:s4_media"
+                target="_blank"
+                rel="noopener"
+                ><img
+                  class="thumb"
+                  data-cfg="src:s4_mediaThumb"
+                  data-ph="Media Pembelajaran Siklus 4|#2563eb"
+                  alt="Media Pembelajaran"
+              /></a>
+              <p>
+                Media pembelajaran berbasis Canva digunakan untuk mendukung
+                pembelajaran Informatika pada materi Literasi Digital dengan
+                fokus pada pembuatan blog menggunakan Google Sites. Materi yang
+                dibahas meliputi pengenalan literasi digital, fungsi dan manfaat
+                blog, pengenalan fitur Google Sites, serta tahapan pembuatan dan
+                pengelolaan halaman website. Peserta didik diperkenalkan dengan
+                cara menyusun konten digital, menambahkan teks, gambar, serta
+                mengatur tata letak halaman agar informasi dapat disajikan
+                secara menarik dan terstruktur.
+              </p>
+
+              <p>
+                Melalui kombinasi teks, gambar, ilustrasi, dan panduan
+                langkah-langkah penggunaan Google Sites, media pembelajaran ini
+                membantu peserta didik memahami cara membuat dan mengelola blog
+                sebagai sarana penyampaian informasi digital. Peserta didik
+                diharapkan mampu menghasilkan blog sederhana secara kreatif,
+                menyusun informasi dengan baik, serta menerapkan prinsip
+                literasi digital dalam membuat dan mempublikasikan konten yang
+                informatif dan bertanggung jawab.
+              </p>
+              <a
+                class="btn"
+                href="#"
+                data-cfg="href:s4_media"
+                target="_blank"
+                rel="noopener"
+                ><svg class="i"><use href="#ext" /></svg>Buka Media</a
+              >
+            </div>
+            <div class="card">
+              <h3 style="margin-top: 0">
+                <svg class="i"><use href="#clip" /></svg>LKPD
+              </h3>
+              <a href="#" data-cfg="href:s4_lkpd" target="_blank" rel="noopener"
+                ><img
+                  class="thumb"
+                  data-cfg="src:s4_lkpdThumb"
+                  data-ph="Thumbnail LKPD Siklus 4|#9333ea"
+                  alt="LKPD"
+              /></a>
+              <p style="color: var(--mu)">
+                Tuliskan deskripsi Anda sendiri pada bagian ini.
+              </p>
+              <a
+                class="btn"
+                href="#"
+                data-cfg="href:s4_lkpd"
+                target="_blank"
+                rel="noopener"
+                ><svg class="i"><use href="#ext" /></svg>Buka LKPD</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="tp">
+          <h2 class="gt" style="margin-top: 8px">Video Praktik Mengajar</h2>
+          <p style="color: var(--mu)">
+            Klik gambar untuk menonton video praktik mengajar literasi digital
+            dalam membuat blog di YouTube.
+          </p>
+          <a
+            class="jb"
+            href="#"
+            data-cfg="href:s4_yt"
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              data-cfg="src:s4_ytThumb"
+              data-ph="Video Mengajar BLOG|#9333ea"
+              alt="Video Praktik Mengajar Siklus 4"
+            />
+            <span class="pl"></span>
+            <div class="jbt">
+              <h3>Video Praktik Mengajar Siklus 4</h3>
+              <p>Tonton di YouTube</p>
+            </div>
+          </a>
+          <div class="ctr">
+            <a
+              class="btn"
+              href="#"
+              data-cfg="href:s4_yt"
+              target="_blank"
+              rel="noopener"
+              ><svg class="i"><use href="#ext" /></svg>Tonton di YouTube</a
+            >
+          </div>
+        </div>
+
+        <div class="tp">
+          <h2 class="gt" style="margin-top: 8px">Analisis Komponen RPM</h2>
+          <p style="color: var(--mu)">
+            Analisis sepuluh komponen RPM Siklus 4.
+          </p>
+          <details>
+            <summary>
+              1. Identifikasi Kesiapan Peserta Didik
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Peserta didik kelas IX telah memiliki pengetahuan awal mengenai
+                literasi digital, khususnya dalam menggunakan media sosial untuk
+                memperoleh dan membagikan informasi. Mereka juga terbiasa
+                membaca berita daring, melihat konten video pendek, serta
+                sebagian memiliki pengalaman menulis jurnal harian. Namun,
+                sebagian besar peserta didik belum mengenal blog sebagai media
+                digital untuk menyampaikan informasi secara lebih terstruktur.
+              </p>
+              <p>
+                Minat peserta didik terhadap penggunaan media digital cukup
+                beragam. Oleh karena itu, pembelajaran dirancang dengan
+                memberikan pilihan tema blog, yaitu pariwisata di Buleleng atau
+                kuliner, sehingga peserta didik dapat mengembangkan proyek
+                berdasarkan minat, pengalaman, dan pengetahuan yang dimiliki.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              2. Capaian dan Tujuan Pembelajaran
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Pembelajaran mengacu pada Capaian Pembelajaran Informatika Fase
+                D, khususnya elemen Literasi Digital. Peserta didik diarahkan
+                untuk memahami penggunaan teknologi digital sebagai sarana
+                memperoleh, mengolah, menyajikan, dan membagikan informasi
+                secara bijak serta bertanggung jawab.
+              </p>
+              <p>
+                Tujuan pembelajaran adalah agar peserta didik mampu merancang
+                struktur dan tampilan blog bertema pariwisata di Buleleng atau
+                kuliner sesuai minat secara kreatif melalui rancangan pada buku
+                gambar. Selanjutnya, peserta didik diharapkan mampu membuat dan
+                mempresentasikan blog menggunakan Google Sites dengan menyajikan
+                informasi yang menarik, terstruktur, dan bertanggung jawab.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              3. Materi dan Konteks Pembelajaran
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Materi pembelajaran berfokus pada Literasi Digital melalui
+                Pembuatan Blog, meliputi pengertian dan fungsi blog, pengenalan
+                struktur serta unsur-unsur blog, perancangan tampilan halaman,
+                penyusunan konten, dan penggunaan Google Sites. Peserta didik
+                juga mempelajari cara memadukan teks, gambar, dan informasi agar
+                dapat disajikan secara menarik dan mudah dipahami.
+              </p>
+              <p>
+                Pembelajaran dikontekstualisasikan dengan kebiasaan peserta
+                didik dalam membaca berita daring, melihat konten media sosial,
+                serta mengenal tempat wisata dan kuliner di lingkungan sekitar.
+                Melalui proyek ini, peserta didik membuat blog bertema
+                pariwisata di Buleleng atau kuliner sehingga mampu memanfaatkan
+                teknologi digital untuk menyampaikan informasi dan pengetahuan
+                yang bermanfaat bagi masyarakat.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              4. Dimensi Profil Lulusan
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Pembelajaran mengembangkan dimensi profil lulusan, terutama
+                keimanan dan ketakwaan terhadap Tuhan Yang Maha Esa serta
+                berakhlak mulia, penalaran kritis, kreativitas, kolaborasi,
+                kemandirian, komunikasi, dan kewargaan. Peserta didik diarahkan
+                untuk bersikap jujur, disiplin, bertanggung jawab, menghargai
+                karya orang lain, serta mencantumkan sumber informasi dan gambar
+                yang digunakan dalam blog.
+              </p>
+              <p>
+                Penalaran kritis dikembangkan melalui kegiatan mencari,
+                memeriksa, dan memilih informasi yang relevan. Kreativitas
+                terlihat ketika peserta didik merancang tampilan blog, sedangkan
+                kemandirian, kolaborasi, dan komunikasi dikembangkan melalui
+                proses pengerjaan proyek, diskusi, presentasi, serta pemberian
+                tanggapan terhadap hasil karya teman.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              5. Model dan Pendekatan Pembelajaran
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Model pembelajaran yang digunakan adalah Project Based Learning
+                (PjBL) dengan pendekatan Deep Learning yang mencakup Mindful
+                Learning, Meaningful Learning, dan Joyful Learning. Peserta
+                didik terlibat dalam proyek pembuatan blog mulai dari menentukan
+                tema, merancang tampilan, mengumpulkan informasi, membuat
+                konten, hingga mempresentasikan hasil karya menggunakan Google
+                Sites.
+              </p>
+              <p>
+                Metode pembelajaran meliputi tanya jawab, presentasi, diskusi,
+                dan refleksi. Canva digunakan untuk menyampaikan materi serta
+                menampilkan contoh blog, sedangkan video tutorial dari YouTube
+                digunakan sebagai panduan praktik pembuatan blog menggunakan
+                Google Sites. Google Forms dimanfaatkan untuk mengumpulkan
+                rancangan dan tautan blog peserta didik.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              6. Analisis Langkah-Langkah
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Pembelajaran dilaksanakan dalam dua pertemuan dengan alokasi
+                waktu masing-masing 2 JP atau 80 menit. Pada pertemuan pertama,
+                kegiatan diawali dengan salam, doa, apersepsi, dan penyampaian
+                tujuan pembelajaran. Kegiatan inti menggunakan tahapan Project
+                Based Learning, mulai dari menentukan pertanyaan mendasar,
+                mendesain perencanaan proyek, hingga menyusun jadwal pengerjaan.
+                Peserta didik mengamati contoh blog melalui Canva, menentukan
+                tema pariwisata di Buleleng atau kuliner, kemudian membuat
+                rancangan tampilan blog pada buku gambar.
+              </p>
+              <p>
+                Pada pertemuan kedua, peserta didik mempraktikkan pembuatan blog
+                menggunakan Google Sites dengan mengikuti video tutorial yang
+                diberikan guru. Kegiatan dilanjutkan dengan memonitor kemajuan
+                proyek, menguji hasil melalui presentasi blog, serta
+                mengevaluasi pengalaman belajar. Peserta didik menjelaskan tema,
+                isi, dan tampilan blog sekaligus menyampaikan kendala yang
+                dihadapi. Pembelajaran ditutup dengan pemberian umpan balik,
+                refleksi, kesimpulan, dan doa bersama.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              7. Penerapan Diferensiasi melalui DUP/UDL
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Penerapan prinsip Universal Design for Learning (UDL) dilakukan
+                melalui tiga aspek, yaitu Multiple Means of Engagement, Multiple
+                Means of Representation, dan Multiple Means of Action and
+                Expression. Keterlibatan peserta didik dibangun dengan
+                memberikan kebebasan memilih tema blog sesuai minat, yaitu
+                pariwisata di Buleleng atau kuliner, sehingga peserta didik
+                dapat menghubungkan pembelajaran dengan pengalaman sehari-hari.
+              </p>
+              <p>
+                Penyajian informasi dilakukan melalui berbagai bentuk, seperti
+                teks, gambar, contoh tampilan blog, dan video tutorial Google
+                Sites. Dalam menunjukkan pemahamannya, peserta didik diberikan
+                kesempatan untuk membuat rancangan blog pada buku gambar dengan
+                kreativitas masing-masing, kemudian mengembangkannya menjadi
+                blog digital dan mempresentasikan hasil karya sesuai kemampuan
+                serta gagasan yang dimiliki.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              8. Analisis Asesmen Pembelajaran
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Asesmen pembelajaran terdiri atas asesmen awal (pre-assessment),
+                asesmen proses (formative assessment), dan asesmen akhir
+                (summative assessment). Asesmen awal dilakukan melalui
+                pertanyaan pemantik dan observasi untuk mengetahui pemahaman
+                peserta didik mengenai literasi digital, pengalaman menggunakan
+                media sosial, kebiasaan membaca informasi daring, serta
+                pengetahuan awal tentang blog.
+              </p>
+              <p>
+                Asesmen proses dilakukan melalui penilaian rancangan blog,
+                pengamatan aktivitas peserta didik, dan pemberian umpan balik
+                selama pengerjaan proyek. Aspek yang dinilai meliputi kesesuaian
+                tema, kelengkapan rancangan, kreativitas desain, keteraturan
+                struktur halaman, dan kesesuaian konten. Google Forms digunakan
+                untuk mengumpulkan foto rancangan dan tautan blog. Asesmen akhir
+                dilakukan melalui penilaian hasil karya serta presentasi blog
+                untuk mengetahui kemampuan peserta didik dalam menyajikan
+                informasi secara menarik dan bertanggung jawab.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              9. Pengelolaan Kelas dan Peran Guru
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Pengelolaan pembelajaran dilakukan melalui pemanfaatan ruang
+                kelas dan laboratorium komputer. Pada pertemuan pertama, ruang
+                kelas digunakan untuk menampilkan materi melalui proyektor,
+                mengamati contoh blog, serta membuat rancangan pada buku gambar.
+                Pada pertemuan kedua, laboratorium komputer digunakan untuk
+                meninjau perkembangan proyek, mempresentasikan hasil blog, dan
+                memberikan umpan balik.
+              </p>
+              <p>
+                Guru berperan sebagai fasilitator, pembimbing, dan pendamping
+                selama proses pembelajaran. Guru memberikan penjelasan mengenai
+                struktur blog, membantu peserta didik menentukan tema dan
+                menyusun rancangan, menyediakan video tutorial sebagai panduan
+                praktik, serta memantau perkembangan proyek. Guru juga
+                memberikan masukan terhadap tampilan, susunan informasi,
+                pemilihan gambar, dan ketepatan konten yang disajikan.
+              </p>
+            </div>
+          </details>
+
+          <details>
+            <summary>
+              10. Penerapan Prinsip Pembelajaran Mendalam
+              <svg class="i"><use href="#chev" /></svg>
+            </summary>
+            <div>
+              <p>
+                Prinsip pembelajaran mendalam diterapkan melalui Mindful
+                Learning, Meaningful Learning, dan Joyful Learning. Mindful
+                Learning diwujudkan dengan mengarahkan peserta didik untuk
+                merencanakan struktur dan tampilan blog secara cermat serta
+                memperhatikan kebenaran informasi, pemilihan gambar, dan sumber
+                referensi. Meaningful Learning diterapkan dengan menghubungkan
+                kebiasaan membaca berita daring dan melihat konten media sosial
+                dengan kegiatan membuat blog bertema pariwisata di Buleleng atau
+                kuliner.
+              </p>
+              <p>
+                Joyful Learning diwujudkan melalui kegiatan mengamati contoh
+                blog, berdiskusi, membuat rancangan tampilan dengan tulisan,
+                gambar, dan warna sesuai kreativitas, serta mempraktikkan
+                pembuatan blog menggunakan Google Sites. Peserta didik juga
+                mempresentasikan hasil karya dan memperoleh apresiasi serta
+                masukan dari guru dan teman. Dengan demikian, pembelajaran
+                memberikan pengalaman yang aktif, bermakna, menyenangkan, dan
+                mendorong penggunaan teknologi digital secara bertanggung jawab.
+              </p>
+            </div>
+          </details>
+        </div>
+
+        <div class="tp">
+          <h2 class="gt" style="margin-top: 8px">
+            Refleksi dan Rencana Perbaikan
+          </h2>
+          <p style="color: var(--mu)">
+            Refleksi atas pelaksanaan Siklus 4 dan rencana perbaikan untuk
+            siklus berikutnya.
+          </p>
+          <div class="grid g2">
+            <div class="card">
+              <h3 style="margin-top: 0">
+                <svg class="i"><use href="#bulb" /></svg>Refleksi
+              </h3>
+              <p style="color: var(--mu)">
+                Pelaksanaan pembelajaran Siklus 4 pada materi Literasi Digital
+                melalui pembuatan blog menggunakan Google Sites memberikan
+                pengalaman belajar yang cukup bermakna. Kegiatan apersepsi
+                berhasil menghubungkan materi dengan kebiasaan murid dalam
+                menggunakan media digital, seperti membaca informasi di internet
+                dan membagikan konten melalui media sosial. Murid juga
+                menunjukkan antusiasme ketika diperkenalkan dengan blog sebagai
+                salah satu media penyampaian informasi digital.
+              </p>
+              <p style="color: var(--mu)">
+                Selama pelaksanaan pembelajaran, terdapat beberapa kendala,
+                terutama keterbatasan penggunaan media presentasi, kesulitan
+                murid dalam menggambar rancangan blog secara manual, serta
+                perbedaan perangkat yang digunakan ketika mengikuti video
+                tutorial. Selain itu, sebagian murid kelas IX.5 mengalami
+                keterbatasan perangkat untuk menyelesaikan blog di rumah
+                sehingga memerlukan pendampingan dan praktik langsung di
+                laboratorium komputer.
+              </p>
+              <p style="color: var(--mu)">
+                Berdasarkan umpan balik Guru Pamong, pembelajaran perlu didukung
+                dengan dua video tutorial yang disesuaikan dengan penggunaan
+                laptop dan HP. Saya juga menyadari pentingnya menyediakan
+                alternatif media perancangan blog agar murid dapat menuangkan
+                ide dan kreativitas sesuai kemampuan serta fasilitas yang
+                dimiliki.
+              </p>
+            </div>
+
+            <div class="card">
+              <h3 style="margin-top: 0">
+                <svg class="i"><use href="#compass" /></svg>Rencana Perbaikan
+              </h3>
+              <p style="color: var(--mu)">
+                Pada pembelajaran berikutnya, saya akan mengembangkan dua video
+                tutorial pembuatan blog menggunakan Google Sites, yaitu melalui
+                laptop dan HP. Saya juga akan berkoordinasi dengan Guru Pamong
+                dan pihak sekolah terkait pemanfaatan HP sebagai sumber
+                referensi pembelajaran dengan tetap memperhatikan aturan dan
+                pengawasan selama kegiatan berlangsung.
+              </p>
+              <p style="color: var(--mu)">
+                Saya akan menyediakan alternatif media perancangan blog
+                menggunakan Figma bagi murid yang mengalami kesulitan menggambar
+                secara manual. Melalui aplikasi tersebut, murid dapat menyusun
+                layout, mengatur posisi teks dan gambar, serta menentukan elemen
+                tampilan halaman blog secara lebih mudah dan terstruktur.
+              </p>
+              <p style="color: var(--mu)">
+                Selain itu, saya akan mengoptimalkan kegiatan praktik di
+                laboratorium komputer, khususnya bagi murid yang memiliki
+                keterbatasan perangkat di rumah. Pendampingan akan dilakukan
+                secara bertahap dengan memberikan contoh dan petunjuk yang
+                sesuai agar seluruh murid memperoleh kesempatan yang sama dalam
+                menyelesaikan proyek, mengembangkan kreativitas, dan
+                menghasilkan blog secara mandiri.
+              </p>
+            </div>
+          </div>
+          <div class="ctr">
+            <a class="btn o" onclick="go('perbaikan')"
+              >Lihat perbaikan antarsiklus →</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      © 2026 E-Portofolio PPG. Dibuat untuk memenuhi tugas PPL Mandiri di SMP
+      Negeri 2 Singaraja.
+    </footer>
+    <div class="lb" id="lb" onclick="this.classList.remove('on')">
+      <img id="lbi" alt="" />
+      <p id="lbc"></p>
+    </div>
+    <svg width="0" height="0" style="position: absolute">
+      <defs id="sym"></defs>
+    </svg>
+    <script src="script.js"></script>
+  </body>
+</html>

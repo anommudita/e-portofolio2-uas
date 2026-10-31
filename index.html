@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Profil Guru | E-Portofolio PPG</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script>
+      try {
+        var t = localStorage.getItem("th");
+        if (t) document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+  </head>
+  <body data-page="profil">
+    <header>
+      <div class="nb">
+        <div class="logo" onclick="go('profil')">
+          <svg class="i"><use href="#grad" /></svg
+          ><span class="gt">E-Portofolio</span>
+        </div>
+        <nav id="nav"></nav>
+        <button class="ib" id="th" aria-label="Ganti tema"></button>
+        <button class="ib" id="mb" aria-label="Menu">
+          <svg class="i"><use href="#menu" /></svg>
+        </button>
+      </div>
+    </header>
+    <main id="app">
+      <div class="pg on">
+        <h1 class="gt">Profil Guru</h1>
+        <p class="sub">
+          Profil mahasiswa PPG dan informasi pelaksanaan PPL Mandiri di SMP
+          Negeri 2 Singaraja.
+        </p>
+        <img
+          class="photo"
+          data-cfg="src:photo"
+          data-ph="Foto Profil|#2563eb"
+          alt="Foto profil"
+        />
+        <p class="sub"><b>Foto Profil Saya</b></p>
+        <h2 class="gt">
+          <svg class="i"><use href="#user" /></svg>Profil Mahasiswa PPG
+        </h2>
+        <div class="card">
+          <h3>
+            <svg class="i"><use href="#user" /></svg>Perkenalan Diri
+          </h3>
+          <p>
+            Saya merupakan lulusan S1 Pendidikan Teknik Informatika Universitas
+            Pendidikan Ganesha tahun 2024 dan saat ini sedang menempuh Program
+            Pendidikan Profesi Guru (PPG Calon Guru). Saya memiliki ketertarikan
+            dalam dunia pendidikan, khususnya dalam menerapkan pendekatan
+            pembelajaran yang berpusat pada siswa serta mengintegrasikan
+            teknologi untuk menciptakan proses pembelajaran yang menarik,
+            interaktif, dan menyenangkan.
+          </p>
+          <h3>
+            <svg class="i"><use href="#pin" /></svg>Asal & Keunikan Daerah
+          </h3>
+          <p>
+            Saya berasal dari Desa Duda, Kecamatan Selat, Kabupaten Karangasem,
+            Provinsi Bali. Namun, sejak kecil saya telah tinggal dan tumbuh
+            besar di Kota Singaraja, Kabupaten Buleleng. Singaraja dikenal
+            sebagai Kota Pendidikan di Bali yang memiliki lingkungan akademis
+            serta beragam institusi pendidikan yang mendukung perkembangan ilmu
+            pengetahuan dan kualitas sumber daya manusia.
+          </p>
+          <h3>
+            <svg class="i"><use href="#bulb" /></svg>Inspirasi
+          </h3>
+          <p>
+            Saya terinspirasi oleh Sandhika Galih melalui video pembelajaran di
+            YouTube, tempat saya belajar pemrograman web dari dasar hingga mampu
+            membuat program secara mandiri. Cara beliau menjelaskan materi
+            dengan sederhana, memberikan contoh kontekstual, dan mengutamakan
+            praktik langsung memotivasi saya untuk menjadi guru yang mampu
+            mengajar dengan pendekatan serupa
+          </p>
+        </div>
+        <h2 class="gt">
+          <svg class="i"><use href="#school" /></svg>Informasi Pelaksanaan PPL
+          Mandiri
+        </h2>
+        <p style="color: var(--mu)">
+          Melalui kegiatan PPL Mandiri di SMP Negeri 2 Singaraja, saya
+          melaksanakan praktik mengajar Informatika di SMP Negeri 2 Singaraja,
+          mulai dari menyusun Rencana Pembelajaran Mendalam (RPM), menyiapkan
+          media dan LKPD, melaksanakan pembelajaran pada Siklus 2 (Pengantar
+          Algoritma), Siklus 3 (Algoritma dan Pemrograman), dan Siklus 4
+          (Literasi Digital : Blog), hingga merefleksikan hasilnya pada setiap
+          siklus.
+        </p>
+        <div class="grid g6">
+          <div class="card info">
+            <svg class="i"><use href="#school" /></svg>
+            <div><small>Sekolah</small><b>SMP Negeri 2 Singaraja</b></div>
+          </div>
+          <div class="card info">
+            <svg class="i"><use href="#school" /></svg>
+            <div><small>Fase / Kelas</small><b>Fase D · Kelas IX</b></div>
+          </div>
+          <div class="card info">
+            <svg class="i"><use href="#graph" /></svg>
+            <div><small>Siklus Praktik</small><b>Siklus 2, 3, dan 4</b></div>
+          </div>
+          <div class="card info">
+            <svg class="i"><use href="#grad" /></svg>
+            <div><small>Mata Pelajaran</small><b>Informatika</b></div>
+          </div>
+          <div class="card info">
+            <svg class="i"><use href="#cal" /></svg>
+            <div><small>Tahun Pelajaran</small><b>2026/2027</b></div>
+          </div>
+          <div class="card info">
+            <svg class="i"><use href="#compass" /></svg>
+            <div>
+              <small>Model Pembelajaran</small><b>Sesuai RPM tiap siklus</b>
+            </div>
+          </div>
+        </div>
+        <div class="grid gn" style="margin-top: 28px">
+          <div class="card nc" onclick="go('siklus2')">
+            <h3 style="margin-top: 0" class="gt">Siklus 2</h3>
+            <p>
+              RPM, media &amp; LKPD, video praktik, analisis RPM, dan refleksi.
+            </p>
+          </div>
+          <div class="card nc" onclick="go('siklus3')">
+            <h3 style="margin-top: 0" class="gt">Siklus 3</h3>
+            <p>
+              RPM, media &amp; LKPD, video praktik, analisis RPM, dan refleksi.
+            </p>
+          </div>
+          <div class="card nc" onclick="go('siklus4')">
+            <h3 style="margin-top: 0" class="gt">Siklus 4</h3>
+            <p>
+              RPM, media &amp; LKPD, video praktik, analisis RPM, dan refleksi.
+            </p>
+          </div>
+          <div class="card nc" onclick="go('perbaikan')">
+            <h3 style="margin-top: 0" class="gt">Perbaikan Antarsiklus</h3>
+            <p>Perbaikan per aspek dari Siklus 2 sampai Siklus 4.</p>
+          </div>
+          <div class="card nc" onclick="go('dokumentasi')">
+            <h3 style="margin-top: 0" class="gt">Dokumentasi</h3>
+            <p>Foto kegiatan mengajar, non mengajar, dan kegiatan sekolah.</p>
+          </div>
+        </div>
+        <div class="quote" data-cfg="quote:moto"></div>
+        <h2 class="gt">
+          <svg class="i"><use href="#image" /></svg>Cuplikan Dokumentasi PPL
+          Mandiri
+        </h2>
+        <div class="mq"><div class="tr" id="marquee"></div></div>
+        <div class="ctr">
+          <a class="btn" onclick="go('dokumentasi')">Lihat semua dokumentasi</a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      © 2026 E-Portofolio PPG. Dibuat untuk memenuhi tugas PPL Mandiri di SMP
+      Negeri 2 Singaraja.
+    </footer>
+    <div class="lb" id="lb" onclick="this.classList.remove('on')">
+      <img id="lbi" alt="" />
+      <p id="lbc"></p>
+    </div>
+    <svg width="0" height="0" style="position: absolute">
+      <defs id="sym"></defs>
+    </svg>
+    <script src="script.js"></script>
+  </body>
+</html>
